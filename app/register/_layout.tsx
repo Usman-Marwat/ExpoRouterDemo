@@ -1,14 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
+import { Slot } from 'expo-router';
 
-const TabTwo = () => {
+export default function RegisterLayout() {
 	return (
 		<View>
-			<Text>TabTwo</Text>
+			<Text>Header</Text>
+			<Slot />
+			<Text>Footer</Text>
 		</View>
 	);
-};
-
-export default TabTwo;
+}
 
 const styles = StyleSheet.create({});

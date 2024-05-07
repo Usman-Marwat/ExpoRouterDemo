@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
-const TabTwo = () => {
+const RegisterIndex = () => {
 	return (
 		<View>
-			<Text>TabTwo</Text>
+			<Text>RegisterIndex Slot</Text>
 		</View>
 	);
 };
 
-export default TabTwo;
+export default RegisterIndex;
 
 const styles = StyleSheet.create({});

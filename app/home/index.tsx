@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 
-const TabTwo = () => {
+const HomeIndex = () => {
 	return (
 		<View>
-			<Text>TabTwo</Text>
+			<Text>Home Index</Text>
 		</View>
 	);
 };
 
-export default TabTwo;
+export default HomeIndex;
 
 const styles = StyleSheet.create({});

@@ -1,14 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
 
-const TabTwo = () => {
+const MissingPage = () => {
 	return (
 		<View>
-			<Text>TabTwo</Text>
+			<Text>MissingPage</Text>
 		</View>
 	);
 };
 
-export default TabTwo;
+export default MissingPage;
 
 const styles = StyleSheet.create({});

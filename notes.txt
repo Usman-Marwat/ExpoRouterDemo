@@ -1,0 +1,8 @@
+1 - A layout file is actually layout for your screens. You can specify the Stack, 
+tab or drawer way of screens layout.
+
+2 - To give header and footer to the register index screen/component we have 
+to either make the layout file either a stack, tab or drawer. Or use the slot 
+component as used.
+
+3 - adding _layout file will make that folder a navigation.
